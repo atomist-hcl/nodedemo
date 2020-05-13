@@ -31,4 +31,7 @@ Add tsconfig.json, Will define typescript transpile optioins
 
 _npx tsc --init_
 
+check
+
+
 
