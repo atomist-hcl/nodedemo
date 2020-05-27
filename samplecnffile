@@ -1,0 +1,20 @@
+[ req ]
+default_bits       = 2048
+default_keyfile    = xxx.xxx.xxx.key #name of the keyfile
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+
+[ req_distinguished_name ]
+countryName                 = AU
+stateOrProvinceName         = New South Wales
+localityName                = xxx
+organizationName            = xx xx xx xx
+organizationalUnitName      = xx xx xx xx
+commonName                  = xx.xx.xx
+commonName_max              = 64
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1   = xx.xx.xx
